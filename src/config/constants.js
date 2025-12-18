@@ -31,7 +31,7 @@ export const GAME_CONFIG = {
   SKY_BOTTOM_COLOR: 0xffcc88,
 
   // model path
-  MODEL_PATH: 'cave_scene.glb',
+  MODEL_PATH: 'src/models/cave_scene.glb',
 
   // debug options
   SHOW_AXES_HELPER: false,

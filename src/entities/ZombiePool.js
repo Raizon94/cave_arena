@@ -9,7 +9,7 @@ export class ZombiePool {
     this.player = player;
     this.bonfire = null;
     this.poolSize = opts.poolSize || 50;
-    this.modelPath = opts.modelPath || 'zombie1.glb';
+    this.modelPath = opts.modelPath || 'src/models/zombie1.glb';
 
     this.pool = [];
     this.active = [];

@@ -6,7 +6,7 @@ import { HealthBar3D } from '../ui/HealthBar3D.js';
 // loads model, does pathfinding, attacks wall
 export class Zombie {
   constructor(scene, opts = {}) {
-    const { position = [0, 0, 0], onLoad = null, layer = 'enemy', modelPath = 'zombie1.glb' } = opts;
+    const { position = [0, 0, 0], onLoad = null, layer = 'enemy', modelPath = 'src/models/zombie1.glb' } = opts;
     this.scene = scene;
     this.loader = new GLTFLoader();
     this.model = null;

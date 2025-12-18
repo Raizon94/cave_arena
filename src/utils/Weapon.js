@@ -61,7 +61,7 @@ export class Weapon {
   loadWeaponModel() {
     const loader = new GLTFLoader();
     loader.load(
-      'fps.glb',
+      'src/models/fps.glb',
       (gltf) => {
         let model = gltf.scene;
         this.model = model;
@@ -104,7 +104,7 @@ export class Weapon {
       },
       (error) => {
         console.error('Error loading weapon model:', error);
-        console.error('Make sure fps.glb is accessible at: /fps.glb');
+        console.error('Make sure fps.glb is accessible at: /src/models/fps.glb');
       }
     );
   }
