@@ -207,7 +207,7 @@ export class WorldManager {
     // Initialize ZombiePool
     this.zombiePool = new ZombiePool(this.scene, this.collisionSystem, this.camera, {
       poolSize: 50,
-      modelPath: 'zombie1.glb'
+      modelPath: 'src/models/zombie1.glb'
     });
     
     // Register callback to count kills
