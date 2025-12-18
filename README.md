@@ -2,6 +2,7 @@
 
 A first-person shooter (FPS) game built with JavaScript and Three.js, where the goal is to defend a Nether Portal against waves of zombies.
 
+PUBLIC DEPLOYMENT, READY TO PLAY: https://cave-arena.vercel.app
 ## Project Overview
 
 **Cave Arena** is a 3D game that implements a custom game engine on top of Three.js. It includes advanced systems like physics with spatial partitioning, dynamic A* pathfinding, wave management, object pooling for performance, and a complete UI system.
